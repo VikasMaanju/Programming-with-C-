@@ -1,0 +1,19 @@
+//hello world program SINGLE LINE COMMENT
+
+/* djhfjdhkfndkm 
+jjejer
+hehek  MULTIPLE LINE COMMENT
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    
+    cout<<"Hello World";
+
+    return 0;
+}
+
