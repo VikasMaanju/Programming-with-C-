@@ -1,0 +1,31 @@
+//Sum of two numbers
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a,b,sum;
+    
+    sum=0;
+    a=7;
+    b=6;
+    
+    //cout<<"Enter two values\t";
+    //cin>>a>>b;
+    sum=a+b;
+    //sum of 2 and 3 is = 5
+    
+    cout<<"\nsum of "<<a <<" and "<< b <<" is = " <<sum;
+    
+    a=7;
+    b=3;
+    sum=a+b;
+    
+    cout<<"\nsum of "<<a <<" and "<< b <<" is = " <<sum;
+    
+
+    return 0;
+}
+
