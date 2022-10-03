@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float first_number, second_number, quotient , remainder;
+    cout<<"enter first_number ";
+    cin>>first_number;
+    cout<<"enter second_number";
+    cin>>second_number;
+    if(second_number==0){
+        cout<<"you have entered 0 which tends to infinity";
+        cin>>second_number;
+        
+    }
+    quotient=first_number/second_number;
+    remainder=first_number-(second_number*quotient);
+    cout<<"\n qoutient of first and second number is ="<<first_number<<"/"<<second_number<<"="<<quotient<<"\n and the remainder is ="<<remainder;
+    return 0;
+}
