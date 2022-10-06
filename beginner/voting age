@@ -1,0 +1,28 @@
+//Program to find the voting age
+
+#include<iostream>
+using namespace std;
+int main ()
+{
+    int x;
+    cout <<"enter the age of person :";      
+    cin>>x;                                        //here x is age of the person
+    if(x>=18)
+    {
+        cout<<"congratulation you are eligible for voting";
+    }
+    
+    
+        else if(x<=10)
+        {
+        cout<<"you are a kid go home";
+        }
+    
+
+        else
+        {
+        cout<<"you are not eligible";
+        }
+    
+    return 0;
+}
