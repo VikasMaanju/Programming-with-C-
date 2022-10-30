@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age;
+    cout<<"enter your age : "<<endl;
+    cin>>age;
+    // here we are using switch statement
+    switch (age)
+    {
+    case 21:
+        cout<<"you are eligible"<<endl;
+        break;
+    case 70:
+        cout<<"you should rest"<<endl;
+        break;    
+
+    case 5:
+        cout<<"you are kid"<<endl;
+        break;
+    default:
+    cout<<"program  finished"<<endl;
+        break;
+    }
+return 0;
+
+}
