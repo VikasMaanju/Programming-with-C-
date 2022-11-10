@@ -3,7 +3,7 @@ using namespace std;
 
 
 int sum(int, int); 
-void g(); 
+ 
 
 int main(){
     int num1, num2;
@@ -12,7 +12,7 @@ int main(){
     cout<<"Enter second number"<<endl;
     cin>>num2;
     cout<<"The sum is "<<sum(num1, num2);
-    g();
+    
     return 0;
 }
 
@@ -21,6 +21,4 @@ int sum(int a, int b){
     return c;
 }
 
-void g(){
-    cout<<"\nHello, Good Morning";
-}
+
