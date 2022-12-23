@@ -1,0 +1,40 @@
+//..1..
+for(i=0 ; i<n ; i++){                     //here the loop will be exicuted n+1 time
+statement;                                //the statement will be exicuted n time
+}                                         //so the statement will be order of n i.e [O(n)]
+
+
+//..2..
+for(i=1;i<n;i=i+2){                       
+statement;                                 //here the statement will be exicuted n/2 time
+}                                          // so the statement will be O(n/2)
+
+//..3..
+for(i=0;i<n;i++){                          //here the loop will be exicuted n+1 time
+for(j=0;j<n;j++){                          //this loop will be exicuted    n(n+1) time
+statement;                                 //the statement will be exicuted (n*n) time
+  }                                        // O(n*2)
+}  
+
+
+//..4..
+for(i=0;i<n;i++){                         //           i               j            no. of time exicution
+for(j=0;j<i;j++){                         //           0               0×                 0
+statement;                                //           1               0✓                 1
+  }                                       //                           1×                  
+}                                         //           2               0 ✓                2
+                                          //                           1 ✓
+                                          //                           2×
+                                          //            .
+                                          //            .
+                                          //            .
+                                          //            .
+                                          //            n                                 n
+                                          //
+                                          //
+                                          // total number of exicution = n(n+1)/2 = (n*2+1)/2
+                                          //   O(n*2)
+                                          //
+                                          //            
+
+
