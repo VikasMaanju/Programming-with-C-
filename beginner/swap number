@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num1 = 8 , num2 = 23;
+    cout<<" num1 and num2 before swap are : " <<num1  <<" "<< num2<<endl;
+    //Assign num1 to temp
+    int temp = num1;
+    //Assign num2 to num1
+    num1 =  num2;
+    //Assign initial num1 value to num2
+    num2 = temp;
+    cout<<" num1 and num2 after swap are : " <<num1  <<" "<< num2 << endl;
+    return 0;
+}
