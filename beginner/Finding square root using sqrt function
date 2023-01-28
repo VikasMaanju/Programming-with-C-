@@ -1,0 +1,16 @@
+#include <cmath>
+#include <iostream>    // Here cmath is used because sqrt() function is under cmath liberary.    
+using namespace std;
+
+int main() {
+  int number = n;
+  
+  double square_root;
+  cout<<"Enter any interger number : "<<endl;
+  cin>>n;
+
+  square_root = sqrt(number);
+  cout << square_root;
+
+  return 0;
+}
