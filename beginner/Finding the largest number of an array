@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int arr[]={4,6,7,9,2,5,13};
+   int largest;
+
+  //Here arr[0] is initialised as largest number
+
+   largest=arr[0];
+  for(int i=1;i<7;i++){
+
+    //Here we compare all numbers with largest and go through the each element
+
+    if(arr[i]>largest){
+   
+    //i.e if arr[1]>arr[0] ( largest) then arr[1] is stored at place of largest until it does not find any another larger number.
+
+      largest=arr[i];
+      }
+      
+    }
+    cout<<"Largest number is : "<<largest;
+    return 0; 
+}
