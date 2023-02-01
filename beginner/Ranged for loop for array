@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  
+  int num_array[] = {13, 32, 23, 19, 35};
+
+  // use of ranged for loop to print array elements
+
+  for (int num : num_array) {
+    cout << "num = " << num << endl;
+  }
+
+  return 0;
+}
