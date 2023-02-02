@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int *P, x = 98;
+
+  cout << "address of x: " << &x << endl<<endl;
+  cout << "value of x: " << x<<endl<<endl;
+
+  P = &x;
+  cout << "Content in P: " << P << endl<<endl;
+  cout << "Value stored in P address: " << *P <<endl<<endl;
+
+  x = 71;
+  cout << "Value stored in P address: " << *P <<endl<<endl;
+
+  *P = 20;
+  cout << "Value of x: " << x;
+
+  return 0;
+}
